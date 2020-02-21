@@ -32,7 +32,7 @@
         <icon density="mdpi" src="res/icon/android/icon48.png" />
         <icon density="hdpi" src="res/icon/android/icon72.png" />
         <icon density="xhdpi" src="res/icon/android/icon96.png" />
-        <hook src="hooks/copy_build_extra.js" type="after_prepare" />
+        <!-- <hook src="hooks/copy_build_extra.js" type="after_prepare" /> -->
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -42,5 +42,5 @@
     <plugin name="cordova-plugin-spinner" spec="^1.1.0" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
-    <plugin name="cordova-plugin-firebase" spec="^2.0.0" />
+    <!-- <plugin name="cordova-plugin-firebase" spec="^2.0.0" /> -->
 </widget>
